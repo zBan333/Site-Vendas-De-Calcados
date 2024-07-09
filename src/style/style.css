@@ -85,8 +85,13 @@ html {
 .wrapper .sidebar .description-filtro {
   padding: 12px 12px 12px 12px;
 }
-.wrapper .sidebar .description-itens {
+.wrapper .sidebar .description-filtro .description-itens {
   margin-top: 24px;
+}
+.wrapper .sidebar .description-filtro .tamanhos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .wrapper .sidebar .btn-aplicar {
   padding: 12px 12px 12px 12px;
