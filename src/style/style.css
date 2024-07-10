@@ -48,16 +48,30 @@ html {
   margin-right: 30px;
   cursor: pointer;
 }
-.header .account .search {
+.header .account .input-group {
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 4px;
+  padding-right: 4px;
+  border: 1px solid #000;
+  border-radius: 24px;
+}
+.header .account .input-group .input-icon {
+  min-width: 32px;
+  min-height: 32px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.header .account .search .search-input {
+.header .account .input-group .input-field {
   border: none;
+  background-color: transparent;
+}
+.header .account .input-group .input-field:focus {
   outline: none;
-  padding: 5px;
-  border-bottom: 1px solid #000;
 }
 .header .account .conta a,
 .header .account .carrinho a {
@@ -78,20 +92,46 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 .wrapper .sidebar .titulo-filtro {
   border-bottom: 2px solid #afaeae;
+  font-size: 1.4rem;
 }
 .wrapper .sidebar .description-filtro {
   padding: 12px 12px 12px 12px;
 }
 .wrapper .sidebar .description-filtro .description-itens {
-  margin-top: 24px;
+  margin-top: 12px;
+  padding-bottom: 24px;
 }
-.wrapper .sidebar .description-filtro .tamanhos {
+.wrapper .sidebar .description-filtro .tamanhos-group {
+  border-bottom: 2px solid #afaeae;
+}
+.wrapper .sidebar .description-filtro .tamanhos-group h2 {
+  padding-bottom: 8px;
+  font-size: 2rem;
+}
+.wrapper .sidebar .description-filtro .tamanhos-group .tamanhos {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
+}
+.wrapper .sidebar .description-filtro .tamanhos-group .tamanhos .tamanhos-itens {
+  min-width: 50px;
+  min-height: 50px;
+  padding: 8px;
+  border: none;
+  background-color: #DCDCDC;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .sidebar .description-filtro .tamanhos-group .tamanhos .tamanhos-itens:hover {
+  background-color: #cecece;
 }
 .wrapper .sidebar .btn-aplicar {
   padding: 12px 12px 12px 12px;
