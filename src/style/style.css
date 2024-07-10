@@ -104,8 +104,6 @@ html {
 .wrapper .sidebar .description-filtro .description-itens {
   margin-top: 12px;
   padding-bottom: 24px;
-}
-.wrapper .sidebar .description-filtro .tamanhos-group {
   border-bottom: 2px solid #afaeae;
 }
 .wrapper .sidebar .description-filtro .tamanhos-group h2 {
