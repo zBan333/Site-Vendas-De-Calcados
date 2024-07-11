@@ -22,7 +22,7 @@ html {
 }
 .header .logo {
   margin-left: 30px;
-  font-size: 1.7rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 .header .menu {
@@ -61,7 +61,7 @@ html {
   min-height: 32px;
   background-color: #000;
   color: #fff;
-  border-radius: 100%;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
