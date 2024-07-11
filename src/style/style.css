@@ -106,9 +106,27 @@ html {
   padding-bottom: 24px;
   border-bottom: 2px solid #afaeae;
 }
-.wrapper .sidebar .description-filtro .tamanhos-group h2 {
+.wrapper .sidebar .description-filtro .description-itens h2 {
   padding-bottom: 8px;
   font-size: 2rem;
+}
+.wrapper .sidebar .description-filtro .description-itens .style-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.wrapper .sidebar .description-filtro .description-itens .style-column .column-itens {
+  min-height: 48px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #DCDCDC;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.wrapper .sidebar .description-filtro .description-itens .style-column .column-itens:hover {
+  background-color: #cecece;
 }
 .wrapper .sidebar .description-filtro .tamanhos-group .tamanhos {
   display: flex;
@@ -116,8 +134,8 @@ html {
   gap: 12px;
 }
 .wrapper .sidebar .description-filtro .tamanhos-group .tamanhos .tamanhos-itens {
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 48px;
+  min-height: 48px;
   padding: 8px;
   border: none;
   background-color: #DCDCDC;
