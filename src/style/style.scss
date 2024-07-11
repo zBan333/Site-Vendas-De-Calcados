@@ -137,13 +137,47 @@ html {
                         width: 100%;
                         padding: 8px;
                         border: none;
-                        background-color: #DCDCDC;
+                        background-color: #fff;
+                        border: 1px solid #dcdcdc;
                         font-size: 16px;
                         border-radius: 8px;
                         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                        transition: .5s;
 
                         &:hover {
-                            background-color: #cecece;
+                            background-color: #dcdcdc;
+                            transform: scale(0.95);
+                        }
+                    }
+                }
+
+                .preços-input {
+                    margin-top: 12px;
+                    width: 100%;
+                    display: flex;
+                    gap: 12px;
+
+                    input {
+                        width: 50%;
+                        min-height: 48px;
+                        border: 1px solid #dcdcdc;
+                        border-radius: 8px;
+                        padding-left: 4px;
+                        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                        transition: .5s;
+
+                        &:hover {
+                            background-color: #dcdcdc;
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+
+                        &::placeholder {
+                            color: #000;
+                            font-size: 16px;
+                            display: flex;
                         }
                     }
                 }
@@ -161,16 +195,19 @@ html {
                         min-height: 48px;
                         padding: 8px;
                         border: none;
-                        background-color: 	#DCDCDC;
+                        background-color: #fff;
+                        border: 1px solid #dcdcdc;
                         font-size: 16px;
                         border-radius: 8px;
                         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        transition: .5s;
 
                         &:hover {
-                            background-color: #cecece;
+                            background-color: #dcdcdc;
+                            transform: scale(0.95);
                         }
                     }
                 }
